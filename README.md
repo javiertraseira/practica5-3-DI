@@ -3,7 +3,7 @@
 ## Parte 1
 
 1.  Agrega al formulario un botón **limpiar** que borre todos los campos del formulario previamente introducidos.
-2.  Agrega al menos 3 verificaciones adicionales a campos de tu formulario mediante un script, y que no hayas hecho previamente en *Bootstrap/HTML5*, como por ejemplo:
+2.  Agrega al menos **tres verificaciones adicionales** a campos de tu formulario mediante un script, y que no hayas hecho previamente en *Bootstrap/HTML5*, como por ejemplo:
     -   Validar que los campos no tengan números ni caracteres especiales.
     -   Verificar que al menos un checkbox esté seleccionado.
     -   Verificar un rango de fechas.
