@@ -18,4 +18,4 @@ Escoge de entre estos 4 de los siguientes apartados, para implementar interactiv
 2.  Busca el código para agregar un **reloj digital sencillo** en JavaScript en alguna parte de tu página.
 3.  Crea un script que al hacer clic sobre una **imagen del carrusel** se agrande sin cerrar la galería.
 4.  Agrega a tu formulario un **selector de color**, en el que al hacer clic, cambie el color de la tabla de datos.
-5.  Agrega un campo para poder **filtrar** el contenido mostrado en la tabla.
+5.  Agrega un campo para poder hacer una **búsqueda dinámicar** el contenido mostrado en la tabla.
