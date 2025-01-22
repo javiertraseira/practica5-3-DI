@@ -11,7 +11,7 @@
 
 ## Parte 2
 
-Escoge de entre estos 4 apartados para implementar interactividad a tu interfaz en JavaScript:
+Escoge de entre estos 4 de los siguientes apartados para implementar interactividad a tu interfaz en JavaScript:
 
 3.  Agrega en el menú un botón de "*Modo Oscuro/claro*” para mediante un script alternar entre estos en tú página.
 4.  Busca el código para agregar un **reloj digital sencillo** en JavaScript en alguna parte de tu página.
