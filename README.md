@@ -7,7 +7,7 @@
     -   Validar que los campos no tengan números ni caracteres especiales.
     -   Verificar que al menos un checkbox esté seleccionado.
     -   Verificar un rango de fechas.
-3.  Agrega un script para que al hacer clic en el botón **enviar** formulario, y todo esté verificado correctamente, se muestre otra **notificación emergente**, que no sea instrusiva, indicando que el formulario se ha enviado correctamente durante al menos 4 segundos.
+3.  Agrega un script para que al hacer clic en el botón **enviar** formulario, y todo esté verificado correctamente, se muestre otra **notificación emergente**, que no sea intrusiva, indicando que el formulario se ha enviado correctamente durante al menos 4 segundos.
 
 
 ## Parte 2
