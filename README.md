@@ -21,4 +21,4 @@ Escoge de entre estos 3-4 de los siguientes apartados, para implementar interact
 5.  Agrega un campo para poder hacer una **búsqueda dinámicar** el contenido mostrado en la tabla.
 
 
-Agrega otro elemento por tu cuenta parecido a los anterior y que tenga que ver con la temática o funcionalidad de tu web.
+Agrega otro elemento por tu cuenta, que sea parecido a los anteriores y que tenga que ver con la temática o funcionalidad de tu web.
