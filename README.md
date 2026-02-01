@@ -2,6 +2,8 @@
 
 El **objetivo** de esta práctica es que el alumnado comprenda el ciclo completo de trabajo con **APIs REST** en el desarrollo web, desde la creación de una **API simulada**, hasta su consumo desde **JavaScript** y la **visualización gráfica de los datos** en informes web.
 
+Esta práctica será evaluada para el **proyecto de final de trimestre** junto con el anterior creado en Java.
+
 ## Parte 1 Mockoon
 
 Antes de consumir datos desde una API, deberás crear tu propia **API REST** simulada utilizando la herramienta **Mockoon**. Esta API será la que posteriormente podrás utilizar en las siguientes partes de la práctica.
@@ -66,7 +68,7 @@ Es obligatorio revisar y aplicar **criterios básicos de accesibilidad del WCGA2
 
 ## Parte 4 Visualización de datos con Chart.js
 
-En esta segunda parte deberás **representar gráficamente** los datos, creando un informe visual que facilite su interpretación (no hace falta que esté relacionados con la tabla que muestras)
+En esta última parte deberás **representar gráficamente** los datos, creando un informe visual que facilite su interpretación (no hace falta que esté relacionados con la tabla que muestras)
 
 Para ello deberás utilizar la librería `chart.js` para crear un **informe gráfico** de los datos de la tabla o con los datos de otra API que decidas.
 
