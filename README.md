@@ -4,13 +4,12 @@ El **objetivo** de esta práctica es que el alumnado comprenda el ciclo completo
 
 ## Parte 1 Mockoon
 
-Antes de consumir datos desde una API, deberás crear tu propia API REST simulada utilizando la herramienta Mockoon. Esta API será la que posteriormente podrás utilizar en las siguientes partes de la práctica.
+Antes de consumir datos desde una API, deberás crear tu propia **API REST** simulada utilizando la herramienta **Mockoon**. Esta API será la que posteriormente podrás utilizar en las siguientes partes de la práctica.
 
 La API deberá cumplir, como mínimo, los siguientes requisitos:
 - Estar creada con Mockoon.
 - Exponer al menos dos **endpoint** accesibles mediante el método GET.
-- Devolver datos en formato JSON.
-- Contener un conjunto de datos estructurados, por ejemplo:
+- Devolver datos en formato JSON, como un conjunto de datos estructurados, por ejemplo:
 
 ```json
 [
@@ -31,16 +30,17 @@ Antes de utilizar la API en tu aplicación deberás de probarla en Postman verif
 
 ## Parte 2 Generación dinámica de contenido
 
-En esta primera parte deberás utilizar una API para obtener datos dinámicos y mostrarlos en la página web desarrollada en prácticas anteriores con Bootstrap.
+En esta primera parte deberás utilizar una **API** para obtener **datos dinámicos** y mostrarlos en la página web desarrollada en prácticas anteriores con Bootstrap.
 
 Puedes elegir entre:
-- Una API real que hayas probado y guardado previamente en Postman.
-- Una API propia simulada, creada con Mockoon, que devuelva datos en formato JSON.
+- Una **API real** que hayas probado y guardado previamente en Postman.
+- Una **API propia simulada**, creada con Mockoon, que devuelva datos en formato JSON.
+- Una mezcla entre ambas.
 
 Los datos obtenidos de la API deberán mostrarse en alguno de los siguientes formatos (elige al menos uno):
-- Una tabla
-- Un conjunto de cards
-- Una galería
+- Una tabla.
+- Un conjunto de cards.
+- Una galería.
 - Campos informativos dentro de la web (listados, bloques de información, etc.)
 
 Para ello:
@@ -57,7 +57,7 @@ Para ello:
 
 ## Parte 3 Revisión de accesibilidad
 
-Es obligatorio revisar y aplicar criterios básicos de accesibilidad, tanto en los nuevos elementos generados dinámicamente como en los existentes:
+Es obligatorio revisar y aplicar **criterios básicos de accesibilidad del WCGA2**, tanto en los nuevos elementos generados dinámicamente como en los existentes:
 
 - Uso correcto de etiquetas semánticas (table, thead, tbody, th, label, etc.).
 - Textos alternativos en imágenes si las hubiera.
@@ -66,7 +66,7 @@ Es obligatorio revisar y aplicar criterios básicos de accesibilidad, tanto en l
 
 ## Parte 4 Visualización de datos con Chart.js
 
-En esta segunda parte deberás representar gráficamente los datos, creando un informe visual que facilite su interpretación (no hace falta que esté relacionados con la tabla que muestras)
+En esta segunda parte deberás **representar gráficamente** los datos, creando un informe visual que facilite su interpretación (no hace falta que esté relacionados con la tabla que muestras)
 
 Para ello deberás utilizar la librería `chart.js` para crear un **informe gráfico** de los datos de la tabla o con los datos de otra API que decidas.
 
