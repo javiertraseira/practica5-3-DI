@@ -2,7 +2,7 @@
 
 El **objetivo** de esta práctica es que el alumnado comprenda el ciclo completo de trabajo con **APIs REST** en el desarrollo web, desde la creación de una **API simulada**, hasta su consumo desde **JavaScript** y la **visualización gráfica de los datos** en informes web.
 
-Esta práctica será evaluada para el **proyecto de final de trimestre** junto con el anterior creado en Java.
+Esta práctica será evaluada para el **proyecto de final de trimestre** junto con la anterior de escritorio creada en Java.
 
 ## Parte 1 Mockoon
 
@@ -61,7 +61,7 @@ Para ello:
 
 Es obligatorio revisar y aplicar **criterios básicos de accesibilidad del WCGA2**, tanto en los nuevos elementos generados dinámicamente como en los existentes:
 
-- Uso correcto de etiquetas semánticas (table, thead, tbody, th, label, etc.).
+- Uso correcto de etiquetas semánticas (*table, thead, tbody, th, label, etc.*).
 - Textos alternativos en imágenes si las hubiera.
 - Contrastes adecuados y estructura clara.
 - Revisión de la accesibilidad del formulario (labels, placeholders, mensajes de error, etc.).
@@ -72,5 +72,5 @@ En esta última parte deberás **representar gráficamente** los datos, creando 
 
 Para ello deberás utilizar la librería `chart.js` para crear un **informe gráfico** de los datos de la tabla o con los datos de otra API que decidas.
 
-![](media/4c5b15141ff1411d66379ee1ed71b81f.png)
+![](media/web_pokemon.png)
 
