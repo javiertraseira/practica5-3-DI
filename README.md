@@ -1,18 +1,23 @@
 # Práctica 5.3 Creación y uso de APIs web y de informes gráficos
 
-El **objetivo** de esta práctica es que el alumnado comprenda el ciclo completo de trabajo con **APIs REST** en el desarrollo web, desde la creación de una **API simulada**, hasta su consumo desde **JavaScript** y la **visualización gráfica de los datos** en informes web.
+El **objetivo** de esta práctica es que el alumnado comprenda el ciclo completo de trabajo con **APIs REST** en el desarrollo web, desde la creación de una **API simulada** usando métodos *GET* y *POST*, hasta su consumo desde **JavaScript** y la **visualización gráfica de los datos** en informes web.
 
 Esta práctica será evaluada para el **proyecto de final de trimestre** junto con la anterior de escritorio creada en Java.
 
 ## Parte 1 Mockoon
 
-Antes de consumir datos desde una API, deberás crear tu propia **API REST** simulada utilizando la herramienta **Mockoon**. Esta API será la que posteriormente podrás utilizar en las siguientes partes de la práctica.
+En esta parte deberás crear tu propia **API REST** simulada utilizando la herramienta **Mockoon**. Esta API será la que posteriormente podrás utilizar en las siguientes partes de la práctica.
 
 La API deberá cumplir, como mínimo, los siguientes requisitos:
 - Estar creada con Mockoon.
 - Exponer al menos dos **endpoint** accesibles mediante el método **GET**.
 - Exponer al menos un **endpoint** accesibles mediante el método **POST**.
-- Devolver datos en formato JSON o imágenes. Así por ejemplo:
+
+### Endpoints GET
+
+- Devolver datos en formato JSON o imágenes locales para usar en tu web. 
+
+Así por ejemplo:
 
 ```json
 [
@@ -25,10 +30,23 @@ La API deberá cumplir, como mínimo, los siguientes requisitos:
 ]
 ```
 
-Antes de utilizar la API en tu aplicación deberás de probarla en Postman verificando lo siguiente:
+### Endpoint POST
+
+Este endpoint deberá simular un inicio de sesión mediante usuario y contraseña. Utilizar reglas básicas en Mockoon (si se desea) para validar usuario y contraseña.
+
+Ejemplo de petición en Postman:
+
+```json
+{
+  "usuario": "admin",
+  "password": "1234"
+}
+
+```
+Antes de utilizar la API en tu aplicación deberás de probarla en **Postman** verificando lo siguiente:
 - Las URL usadas son correctas.
-- El endpoint devuelve los datos esperados.
-- La respuesta es un JSON válido (valor 200)
+- La respuesta es un JSON válido.
+- Los endpoint devuelven los datos o códigos de respuesta esperados.
 
 
 ## Parte 2 Generación dinámica de contenido
