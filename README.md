@@ -1,4 +1,4 @@
-# Práctica 5.3 Uso de APIs web y creación de informes gráficos
+# Práctica 5.3 Creación y uso de APIs web y de informes gráficos
 
 El **objetivo** de esta práctica es que el alumnado comprenda el ciclo completo de trabajo con **APIs REST** en el desarrollo web, desde la creación de una **API simulada**, hasta su consumo desde **JavaScript** y la **visualización gráfica de los datos** en informes web.
 
@@ -10,7 +10,8 @@ Antes de consumir datos desde una API, deberás crear tu propia **API REST** sim
 
 La API deberá cumplir, como mínimo, los siguientes requisitos:
 - Estar creada con Mockoon.
-- Exponer al menos dos **endpoint** accesibles mediante el método GET.
+- Exponer al menos dos **endpoint** accesibles mediante el método **GET**.
+- Exponer al menos un **endpoint** accesibles mediante el método **POST**.
 - Devolver datos en formato JSON, como un conjunto de datos estructurados, por ejemplo:
 
 ```json
