@@ -49,7 +49,7 @@ Antes de utilizar la API en tu aplicación deberás de probarla en **Postman** v
 - Los endpoint devuelven los datos o códigos de respuesta esperados.
 
 
-## Parte 2 Generación dinámica de contenido
+## Parte 2 Generación dinámica de contenido y login
 
 En esta primera parte deberás utilizar una **API** para obtener **datos dinámicos** y mostrarlos en la página web desarrollada en prácticas anteriores con Bootstrap.
 
@@ -75,6 +75,13 @@ Para ello:
     - *appendChild()*
     - *createElement()*
 
+Implementa también un **botón de Login** en la barra de navegación, que permita abrir una **ventana modal** (*Modal Bootstrap*) con un formulario de inicio de sesión, sin recargar la página:
+- El botón deberá contener un campo de **usuario**, otro de **contraseña** y un botón de envío.
+- Deberá de conectarse con la API creada en el apartado anterior.
+- En caso de respuesta 200: 
+    - Se actualizará la variable de estado.
+    - Se cerrará el modal.
+    - El botón “Login” cambiará su texto a “Logueado”.
 
 ## Parte 3 Revisión de accesibilidad
 
