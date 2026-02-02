@@ -77,11 +77,13 @@ Para ello:
 
 Implementa también un **botón de Login** en la barra de navegación, que permita abrir una **ventana modal** (*Modal Bootstrap*) con un formulario de inicio de sesión, sin recargar la página:
 - El botón deberá contener un campo de **usuario**, otro de **contraseña** y un botón de envío.
-- Deberá de conectarse con la API creada en el apartado anterior.
-- En caso de respuesta 200: 
-    - Se actualizará la variable de estado.
-    - Se cerrará el modal.
-    - El botón “Login” cambiará su texto a “Logueado”.
+- Deberá de conectarse con la API creada en el apartado anterior:
+  - En caso de respuesta **200**: 
+      - Se actualizará la variable de estado.
+      - Se cerrará el modal.
+      - El botón “Login” cambiará su texto a “Logueado”.
+  - En caso de respuesta errónea (401)
+      - Tan solo se mostrará un mensaje de error al usuario.
 
 ## Parte 3 Revisión de accesibilidad
 
