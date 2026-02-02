@@ -53,15 +53,12 @@ Antes de utilizar la API en tu aplicación deberás de probarla en **Postman** v
 
 En esta primera parte deberás utilizar una **API** para obtener **datos dinámicos** y mostrarlos en la página web desarrollada en prácticas anteriores con Bootstrap.
 
-Puedes elegir entre:
-- Una **API real** que hayas probado y guardado previamente en Postman.
-- Una **API propia simulada**, creada con Mockoon, que devuelva datos en formato JSON.
-- Una **mezcla** entre ambas.
+De forma **opcional**, y como ampliación, podrás integrar una API real adicional que hayas probado previamente con Postman, siempre que la **API principal utilizada sea la creada por ti en Mockoon**.
 
 Los datos obtenidos de la API deberán mostrarse en alguno de los siguientes formatos (elige al menos uno):
 - Una tabla.
 - Galería de imágenes.
-- Un conjunto de cards.
+- Un conjunto de *cards*.
 - Campos informativos dentro de la web (listados, bloques de información, etc.)
 
 Para ello:
