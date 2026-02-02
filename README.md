@@ -78,7 +78,7 @@ Para ello:
 
 ## Parte 3 Revisión de accesibilidad
 
-Es obligatorio revisar y aplicar **criterios básicos de accesibilidad del WCGA2**, tanto en los nuevos elementos generados dinámicamente como en los existentes:
+Es obligatorio revisar y aplicar **criterios básicos de accesibilidad del WCGA2** ♿, tanto en los nuevos elementos generados dinámicamente como en los existentes:
 
 - Uso correcto de etiquetas semánticas (*table, thead, tbody, th, label, etc.*).
 - Textos alternativos en imágenes si las hubiera.
