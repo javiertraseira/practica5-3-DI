@@ -81,10 +81,10 @@ Para ello:
 Es obligatorio revisar y aplicar **criterios básicos de accesibilidad del WCGA2** ♿, tanto en los nuevos elementos generados dinámicamente como en los existentes:
 
 - Uso correcto de etiquetas semánticas (*table, thead, tbody, th, label, etc.*).
+- Revisión de la **accesibilidad del formulario** (labels, placeholders, mensajes de error, etc.).
 - Textos alternativos en imágenes si las hubiera.
 - Contrastes adecuados y estructura clara.
-- Revisión de la accesibilidad del formulario (labels, placeholders, mensajes de error, etc.).
-- Test de accesibilidad.
+- Test automatizados de accesibilidad.
 
 ## Parte 4 Visualización de datos con Chart.js
 
