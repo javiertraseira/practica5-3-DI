@@ -90,9 +90,9 @@ Es obligatorio revisar y aplicar **criterios básicos de accesibilidad del WCGA2
 
 En esta última parte deberás **representar gráficamente** los datos, creando un informe visual que facilite su interpretación (no hace falta que esté relacionados con la tabla que muestras)
 
-En esta web encontrarás como utilizar dicha librería con ejemplos: https://www.chartjs.org/docs/latest/getting-started/
-
 Para ello deberás utilizar la librería `chart.js` para crear un **informe gráfico** de los datos de la tabla o con los datos de otra API que decidas.
+
+En esta web encontrarás la documentación de cómo utilizar dicha librería con ejemplos para ayudarte en su implementación: https://www.chartjs.org/docs/latest/getting-started/
 
 ![](media/web_pokemon.png)
 
