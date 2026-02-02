@@ -12,7 +12,7 @@ La API deberá cumplir, como mínimo, los siguientes requisitos:
 - Estar creada con Mockoon.
 - Exponer al menos dos **endpoint** accesibles mediante el método **GET**.
 - Exponer al menos un **endpoint** accesibles mediante el método **POST**.
-- Devolver datos en formato JSON, como un conjunto de datos estructurados, por ejemplo:
+- Devolver datos en formato JSON o imágenes. Así por ejemplo:
 
 ```json
 [
@@ -26,9 +26,9 @@ La API deberá cumplir, como mínimo, los siguientes requisitos:
 ```
 
 Antes de utilizar la API en tu aplicación deberás de probarla en Postman verificando lo siguiente:
-- La URL es correcta.
+- Las URL usadas son correctas.
 - El endpoint devuelve los datos esperados.
-- La respuesta es un JSON válido.
+- La respuesta es un JSON válido (valor 200)
 
 
 ## Parte 2 Generación dinámica de contenido
