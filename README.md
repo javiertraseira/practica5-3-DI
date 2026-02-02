@@ -1,4 +1,4 @@
-# Práctica 5.3 Creación y consumo de APIs REST con visualización de informes gráficos.
+# Práctica 5.3 Creación y consumo de APIs en una web dinámico con visualización de informes gráficos.
 
 El **objetivo** de esta práctica es que el alumnado comprenda el ciclo completo de trabajo con **APIs REST** en el desarrollo web, desde la creación de una **API simulada** usando métodos *GET* y *POST*, hasta su consumo desde **JavaScript** y la **visualización gráfica de los datos** en informes web.
 
