@@ -11,11 +11,11 @@ En esta parte deberás crear tu propia **API REST** simulada utilizando la herra
 La API deberá cumplir, como mínimo, los siguientes requisitos:
 - Estar creada con Mockoon.
 - Exponer al menos dos **endpoint** accesibles mediante el método **GET**.
-- Exponer al menos un **endpoint** accesibles mediante el método **POST**.
+- Exponer al menos un **endpoint** accesible mediante el método **POST**.
 
 ### Endpoints GET
 
-- Devolver datos en formato JSON o imágenes locales para usar en tu web. 
+Deberá devolver datos en formato **JSON** o **imágenes locales** para usar en tu web. 
 
 Así por ejemplo:
 
@@ -32,7 +32,7 @@ Así por ejemplo:
 
 ### Endpoint POST
 
-Este endpoint deberá simular un inicio de sesión mediante usuario y contraseña. Utilizar reglas básicas en Mockoon (si se desea) para validar usuario y contraseña.
+Este endpoint deberá simular un **inicio de sesión** mediante usuario y contraseña. Utilizar reglas básicas en Mockoon (si se desea) para validar usuario y contraseña.
 
 Ejemplo de petición en Postman:
 
@@ -56,12 +56,12 @@ En esta primera parte deberás utilizar una **API** para obtener **datos dinámi
 Puedes elegir entre:
 - Una **API real** que hayas probado y guardado previamente en Postman.
 - Una **API propia simulada**, creada con Mockoon, que devuelva datos en formato JSON.
-- Una mezcla entre ambas.
+- Una **mezcla** entre ambas.
 
 Los datos obtenidos de la API deberán mostrarse en alguno de los siguientes formatos (elige al menos uno):
 - Una tabla.
+- Galería de imágenes.
 - Un conjunto de cards.
-- Una galería.
 - Campos informativos dentro de la web (listados, bloques de información, etc.)
 
 Para ello:
@@ -70,7 +70,7 @@ Para ello:
 - Recorrer los datos obtenidos (arrays u objetos) y:
     - Crea dinámicamente los elementos HTML necesarios.
     - Rellena el contenido con los datos proporcionados por la API.
-- Insertar los elementos generados dentro de la web utilizando el DOM, por ejemplo:
+- Insertar los elementos generados dentro de la web utilizando el **DOM**, por ejemplo:
     - *innerHTML*
     - *appendChild()*
     - *createElement()*
@@ -84,10 +84,13 @@ Es obligatorio revisar y aplicar **criterios básicos de accesibilidad del WCGA2
 - Textos alternativos en imágenes si las hubiera.
 - Contrastes adecuados y estructura clara.
 - Revisión de la accesibilidad del formulario (labels, placeholders, mensajes de error, etc.).
+- Test de accesibilidad.
 
 ## Parte 4 Visualización de datos con Chart.js
 
 En esta última parte deberás **representar gráficamente** los datos, creando un informe visual que facilite su interpretación (no hace falta que esté relacionados con la tabla que muestras)
+
+En esta web encontrarás como utilizar dicha librería con ejemplos: https://www.chartjs.org/docs/latest/getting-started/
 
 Para ello deberás utilizar la librería `chart.js` para crear un **informe gráfico** de los datos de la tabla o con los datos de otra API que decidas.
 
